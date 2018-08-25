@@ -44,7 +44,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample App Status
+title: Hyperpage Status
 
 # What language is this site using?
 # Only alters the html[lang] attribute
@@ -77,13 +77,21 @@ params:
   # https://github.com/mistermantas/cstate/wiki/Customization
   systems:
     -
-      name: Gateway
+      name: Duo Node
+    -
+      name: Wuo Node
+    -
+      name: Neo Node
+    -
+      name: Leo Node
+    -
+      name: Vio Node
     -
       name: API
       description: The guts of the application.
     -
-      name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+      name: Zuo Portal
+      description: Billing and management interface of Hyperpage.
 
   # What header design should we use?
   #
@@ -106,7 +114,7 @@ params:
   #
   # Recommended: png, bmp, jpg, or gif
   # for best browser support!
-  logo: /logo.png
+  logo: https://cdn.hyperpage.co/imgs/email-logo.png
 
   # This is the description that is shown
   # in the footer and meta tags.
